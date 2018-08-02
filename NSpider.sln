@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSpider.EventBusRabbitMq", "src\NSpider.EventBusRabbitMq\NSpider.EventBusRabbitMq.csproj", "{241FE065-C245-4197-9AED-73F8725C6F7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D8601D4-89A5-4382-ACF8-B3E82A3D326B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSpider.Core", "NSpider.Core\NSpider.Core.csproj", "{44E949FB-3B7E-4392-A2F7-D84E308056EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{241FE065-C245-4197-9AED-73F8725C6F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241FE065-C245-4197-9AED-73F8725C6F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241FE065-C245-4197-9AED-73F8725C6F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241FE065-C245-4197-9AED-73F8725C6F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E949FB-3B7E-4392-A2F7-D84E308056EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E949FB-3B7E-4392-A2F7-D84E308056EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E949FB-3B7E-4392-A2F7-D84E308056EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E949FB-3B7E-4392-A2F7-D84E308056EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{241FE065-C245-4197-9AED-73F8725C6F7E} = {5D8601D4-89A5-4382-ACF8-B3E82A3D326B}
+		{44E949FB-3B7E-4392-A2F7-D84E308056EA} = {5D8601D4-89A5-4382-ACF8-B3E82A3D326B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3D68CA7-FA65-4F03-B926-952B572436F0}
+	EndGlobalSection
+EndGlobal
